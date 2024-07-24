@@ -12057,10 +12057,10 @@ addcmd('hitbox',{},function(args, speaker)
 			if Root:IsA("BasePart") then
 				if not args[2] or sizeArg == 1 then
 					Root.Size = Vector3.new(2,1,1)
-					Root.Transparency = 0.1
+					Root.Transparency = 100
 				else
 					Root.Size = Size
-					Root.Transparency = 0.1
+					Root.Transparency = 100
 				end
 			end
 		end
